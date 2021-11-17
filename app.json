@@ -43,14 +43,6 @@
         "GPLINKS_API": {
             "description": "GPLinks.in api from gplinks.in/api",
             "required": "True"
-        },
-        "POST_API": {
-            "description": "Po.st API"
-            "value" : "Keep it blank"
-        },
-        "OWLY_API": {
-            "description": "Ow.ly API",
-            "value": "keep it blank"
         }
     },
     "stack": "heroku-20",
