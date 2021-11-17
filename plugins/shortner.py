@@ -217,7 +217,7 @@ async def short(chat_id, link):
     
     # Send the text
     try:
-        shorten_urls += "\n\nMade by @FayasNoushad"
+        shorten_urls += "\n\nMade by @SarfarazStark"
         return shorten_urls
     except Exception as error:
         return error
