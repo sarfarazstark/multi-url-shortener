@@ -46,11 +46,11 @@
         },
         "POST_API": {
             "description": "Po.st API",
-            "required": "False"
+            "required": ""
         },
         "OWLY_API": {
             "description": "Ow.ly API",
-            "required": "False"
+            "required": ""
         }
     },
     "stack": "heroku-20",
