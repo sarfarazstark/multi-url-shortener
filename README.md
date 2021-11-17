@@ -2,15 +2,19 @@
 Made with Python3
 (C) @FayasNoushad
 Copyright permission under MIT License
-License -> https://github.com/FayasNoushad/URL-Shortner-Bot-V2/blob/main/LICENSE
+License -> https://github.com/sarfarazstark/multi-url-shortener/blob/main/LICENSE
 ```
 
 ---
+### Deploy to Heroku
+Click Below Button to Deploy to Heroku:
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sarfarazstark/multi-url-shortener)
 
 ## Deploy
 
 ```sh
-git clone https://github.com/FayasNoushad/URL-Shortner-Bot-V2.git
+git clone https://github.com/sarfarazstark/multi-url-shortener.git
 cd URL-Shortner-Bot-V2
 pip3 install -r requirements.txt
 # <Create Variables appropriately>
@@ -37,7 +41,7 @@ python3 main.py
 
 ## Credits
 
-- [Fayas Noushad](https://github.com/FayasNoushad)
+- [Sarfaraz Stark](https://github.com/SarfarazStark)
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
 - [URL-Shortner-Bot](https://github.com/FayasNoushad/URL-Shortner-Bot)
 
