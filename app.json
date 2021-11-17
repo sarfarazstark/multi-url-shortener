@@ -1,0 +1,68 @@
+{
+    "name": "Url-Shortner",
+    "description": "A Telegram bot that can short long URL.",
+    "keywords": [
+        "",
+        ""
+    ],
+    "repository": "https://github.com/sarfarazstark/multi-url-shortener,",
+    "website": "https://github.com/SarfarazStark,",
+    "env": {
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "required": "True"
+        },
+        "API_ID": {
+            "description": "Your API ID from my.telegram.org",
+            "required": "True"
+        },
+        "BOT_TOKEN": {
+            "description": "Your bot token from @BotFather",
+            "required": "True"
+        },
+        "DATABASE": {
+            "description": "Your MongoDB URL",
+            "required": "True"
+        },
+        "BOT_OWNER": {
+            "description": "Bot Owner ID",
+            "required": "True"
+        },
+        "BITLY_API": {
+            "description": "Bit.ly api from dev.bitly.com",
+            "required": "True"
+        },
+        "CUTTLY_API": {
+            "description": "Cutt.ly api from cutt.ly/cuttly-api",
+            "required": "True"
+        },
+        "SHORTCM_API": {
+            "description": "Short.cm api from developers.short.io",
+            "required": "True"
+        },
+        "GPLINKS_API": {
+            "description": "GPLinks.in api from gplinks.in/api",
+            "required": "True"
+        },
+        "POST_API": {
+            "description": "Po.st API",
+            "required": "False"
+        },
+        "OWLY_API": {
+            "description": "Ow.ly API",
+            "required": "False"
+        }
+    },
+    "stack": "heroku-20",
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
