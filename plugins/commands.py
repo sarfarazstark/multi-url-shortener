@@ -10,16 +10,16 @@ I am a link shortner telegram bot.
 
 >> `I can short any type of link`
 >> `With Multiple Shortener Like:
-     GPLinks.in
-     Bit.ly
-     Chilp.it
-     Clck.ru
-     Cutt.ly
-     Da.gd
-     Osdb.link
-     Qps.ru
-     TinyURL.com
-     ttm.sh`
+     ✅  🔰GPLinks.in   🔰
+     ✅  🔰Bit.ly            🔰
+     ✅  🔰Chilp.it         🔰
+     ✅  🔰Clck.ru         🔰
+     ✅  🔰Cutt.ly          🔰
+     ✅  🔰Da.gd           🔰
+     ✅  🔰Osdb.link      🔰
+     ✅  🔰Qps.ru          🔰
+     ✅  🔰TinyUrl.com  🔰
+     ✅  🔰ttm.sh          🔰`
 Made by @SarfarazStark"""
 
 HELP_TEXT = """**Hey, Follow these steps:**
