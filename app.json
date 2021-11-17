@@ -42,7 +42,7 @@
         },
         "GPLINKS_API": {
             "description": "GPLinks.in api from gplinks.in/api",
-            "required": "True"
+            "required": "false"
         }
     },
     "stack": "heroku-20",
